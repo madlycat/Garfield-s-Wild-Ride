@@ -29,7 +29,7 @@ os.environ['TZ'] = 'PST8PDT'
 logging.basicConfig(filename = "logfile.log", filemode = "w", format = Log_Format, level = logging.INFO)
 log = logging.getLogger("my-logger")
 #print(mp.cpu_count())
-servers = [943000675908980746,935758410090160159]
+servers = [943000675908980746]
 exempt = [339251879273955330,740630812315090984,811024803292905532]
 schedules = {}
 bot = interactions.Client(token=os.environ["api"])
